@@ -1,0 +1,14 @@
+# Capi Capi portfolio — runtime requirements
+# No Python/npm packages are needed. The site is static and loads from CDN:
+#   three.js  r128   (cdnjs)
+#   GSAP      3.12.5 (cdnjs, incl. ScrollTrigger)
+#   Fonts: Orbitron, JetBrains Mono (Google Fonts)
+#
+# Content (optional, falls back to placeholders):
+#   info/content.json   -> name, tagline, about, skills[], projects[{title,description,tags[]}], contact{text,email}
+#
+# Audio (optional, falls back to generated synth tracks):
+#   Drop mp3/wav/ogg/m4a/flac/aac/webm files into tracks/ and list them in
+#   tracks/manifest.json, e.g. {"tracks":[{"file":"song.mp3","title":"Song","artist":"Capi Capi"}]}
+#
+# Serve over HTTP (not file://), e.g.:  python -m http.server 8000

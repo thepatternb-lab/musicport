@@ -1,0 +1,7 @@
+{
+  "tracks": [
+    { "title": "Midnight Protocol", "artist": "Capi Capi", "file": "midnight-protocol.mp3", "synth": { "root": 110, "bpm": 92 } },
+    { "title": "Neon Rain", "artist": "Capi Capi", "file": "neon-rain.mp3", "synth": { "root": 98, "bpm": 80 } },
+    { "title": "Chrome Heart", "artist": "Capi Capi", "file": "chrome-heart.mp3", "synth": { "root": 123.47, "bpm": 104 } }
+  ]
+}

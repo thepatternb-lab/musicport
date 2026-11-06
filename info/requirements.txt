@@ -1,0 +1,20 @@
+CAPI CAPI PORTFOLIO — REQUIREMENTS
+
+Runtime (loaded via CDN, no build step):
+- three.js r128
+- GSAP 3.12.5 + ScrollTrigger
+
+Content:
+- info/profile.json   Optional. Overrides any field of the default profile
+                      (name, tagline, role, location, about, email, socials[], projects[]).
+- tracks/manifest.json  Track list: { "tracks": [ { "title", "artist", "file", "synth" } ] }
+                      "file" is relative to tracks/. If the file is missing or fails to decode,
+                      the player renders a procedural synth track from "synth" { root, bpm }.
+
+Serving:
+- Must be served over HTTP (fetch of info/ and tracks/ fails on file://).
+  e.g. python -m http.server 8000
+
+Audio:
+- Drop .mp3/.ogg/.wav files into tracks/ and list them in tracks/manifest.json.
+- Controls: play/pause, previous, next, seek, volume. Spacebar toggles playback.

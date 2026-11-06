@@ -1,0 +1,12 @@
+{
+  "name": "Capi Capi",
+  "tagline": "Engineering signal from noise.",
+  "about": "Capi Capi designs and builds immersive digital systems at the intersection of code, sound and light. Edit info/content.json to replace this copy.",
+  "skills": ["WebGL / GLSL", "Creative Coding", "Audio DSP", "Systems Design", "Interaction"],
+  "projects": [
+    { "title": "Neon Lattice", "description": "Real-time shader grid reacting to sound and cursor.", "tags": ["GLSL", "Three.js"] },
+    { "title": "Signal Garden", "description": "Generative audio instrument built on the Web Audio API.", "tags": ["Web Audio", "JS"] },
+    { "title": "Ghost Protocol UI", "description": "Glassmorphic interface kit for dark-future dashboards.", "tags": ["CSS", "GSAP"] }
+  ],
+  "contact": { "text": "Open to collaborations, commissions and strange ideas.", "email": "hello@example.com" }
+}
